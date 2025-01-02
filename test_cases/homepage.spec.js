@@ -14,7 +14,6 @@ test('verify image title visibility', async ({ page }) => {
   await expect(img).toBeVisible();
 });
 
-
 // 2nd case: verify homepage contains 6 cards
 test('verify homepage elements', async ({ page }) => {
   //go to page
